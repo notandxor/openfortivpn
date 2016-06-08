@@ -1,0 +1,11 @@
+[Unit]
+Description=OpenFortiVpn client.
+After=syslog.target
+
+[Service]
+ExecStart=/bin/openfortivpn -c /etc/openfortivpn/terq.conf
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
