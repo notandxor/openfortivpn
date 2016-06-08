@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <in>config.c</in>
+        <in>hdlc.c</in>
+        <in>http.c</in>
+        <in>io.c</in>
+        <in>ipv4.c</in>
+        <in>log.c</in>
+        <in>main.c</in>
+        <in>tunnel.c</in>
+        <in>userinput.c</in>
+        <in>xml.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=gnu99"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>openfortivpn</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>HAVE_ARPA_INET_H=1</Elem>
+              <Elem>HAVE_BZERO=1</Elem>
+              <Elem>HAVE_FCNTL_H=1</Elem>
+              <Elem>HAVE_GETHOSTBYNAME=1</Elem>
+              <Elem>HAVE_INET_NTOA=1</Elem>
+              <Elem>HAVE_INTTYPES_H=1</Elem>
+              <Elem>HAVE_LIBCRYPTO=1</Elem>
+              <Elem>HAVE_LIBPTHREAD=1</Elem>
+              <Elem>HAVE_LIBSSL=1</Elem>
+              <Elem>HAVE_LIBUTIL=1</Elem>
+              <Elem>HAVE_MALLOC=1</Elem>
+              <Elem>HAVE_MEMMEM=1</Elem>
+              <Elem>HAVE_MEMMOVE=1</Elem>
+              <Elem>HAVE_MEMORY_H=1</Elem>
+              <Elem>HAVE_MEMSET=1</Elem>
+              <Elem>HAVE_NETDB_H=1</Elem>
+              <Elem>HAVE_NETINET_IN_H=1</Elem>
+              <Elem>HAVE_REALLOC=1</Elem>
+              <Elem>HAVE_SELECT=1</Elem>
+              <Elem>HAVE_SOCKET=1</Elem>
+              <Elem>HAVE_STDDEF_H=1</Elem>
+              <Elem>HAVE_STDINT_H=1</Elem>
+              <Elem>HAVE_STDLIB_H=1</Elem>
+              <Elem>HAVE_STRERROR=1</Elem>
+              <Elem>HAVE_STRINGS_H=1</Elem>
+              <Elem>HAVE_STRING_H=1</Elem>
+              <Elem>HAVE_STRSTR=1</Elem>
+              <Elem>HAVE_STRTOL=1</Elem>
+              <Elem>HAVE_SYS_IOCTL_H=1</Elem>
+              <Elem>HAVE_SYS_SOCKET_H=1</Elem>
+              <Elem>HAVE_SYS_STAT_H=1</Elem>
+              <Elem>HAVE_SYS_TYPES_H=1</Elem>
+              <Elem>HAVE_UNISTD_H=1</Elem>
+              <Elem>PACKAGE="openfortivpn"</Elem>
+              <Elem>PACKAGE_BUGREPORT=""</Elem>
+              <Elem>PACKAGE_NAME="openfortivpn"</Elem>
+              <Elem>PACKAGE_STRING="openfortivpn 1.1.4"</Elem>
+              <Elem>PACKAGE_TARNAME="openfortivpn"</Elem>
+              <Elem>PACKAGE_URL=""</Elem>
+              <Elem>PACKAGE_VERSION="1.1.4"</Elem>
+              <Elem>STDC_HEADERS=1</Elem>
+              <Elem>VERSION="1.1.4"</Elem>
+              <Elem>_ALL_SOURCE=1</Elem>
+              <Elem>_GNU_SOURCE=1</Elem>
+              <Elem>_POSIX_PTHREAD_SEMANTICS=1</Elem>
+              <Elem>_TANDEM_SOURCE=1</Elem>
+              <Elem>__EXTENSIONS__=1</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>./configure CC=${IDE_CC} CXX=${IDE_CXX} CFLAGS="-g3 -gdwarf-2" CXXFLAGS="-g3 -gdwarf-2"</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="src/config.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/hdlc.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/http.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/io.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/ipv4.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/log.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/main.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/tunnel.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/userinput.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="src/xml.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

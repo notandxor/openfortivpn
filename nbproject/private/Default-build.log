@@ -1,0 +1,11 @@
+  CC       src/openfortivpn-config.o
+  CC       src/openfortivpn-hdlc.o
+  CC       src/openfortivpn-http.o
+  CC       src/openfortivpn-io.o
+  CC       src/openfortivpn-ipv4.o
+  CC       src/openfortivpn-log.o
+  CC       src/openfortivpn-tunnel.o
+  CC       src/openfortivpn-main.o
+  CC       src/openfortivpn-xml.o
+  CC       src/openfortivpn-userinput.o
+  CCLD     openfortivpn
