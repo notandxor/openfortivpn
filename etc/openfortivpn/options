@@ -1,0 +1,8 @@
+#/etc/ppp/options
+lock
+
+#prevent remote hangup by keeping connection busy
+lcp-echo-interval 30
+
+
+
